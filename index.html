@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>My Portfolio</b></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Alfie Chapman</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#socials" onclick="toggleMenu()">Socials</a></li>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_picture-shape">
+            <img src="./assets/Profile-Picture-1.png" alt="Alfie Chapman profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <h1 class="title">Alfie Chapman</h1>
+            <p class="section_text_p2">Aspiring IT Engineer</p>
+            <div class="btn-container">
+                <button
+                class="btn btn-colour-2"onclick="window.open('./assets/AlfieChapmanCV.pdf')">
+                Download CV
+            </button>       
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/alfie-chapman'">
+
+                <img src="./assets/github.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://github.com/AlfieChapman1999/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section_pic-container">
+            <img
+              src="./assets/about me.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>Work Experience - IT Technician</p>
+                <p>Thumbnail Creator - Youtube Channel</p>
+                <p>Generation - Trainee Google Cloud Engineer</p>
+                <p>Self Learning - HTML, CSS, JS</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>9 GCSE's A-C inclding Maths, English and Graphic Design</p>
+                <p>Double Distinction in BTEC ICT</p>
+                <p>Computer Game Dev @ University of Westminster - 1 year completed.</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hello there, I'm Alfie Chapman, an aspiring software developer hailing from South London, England. My fascination with technology ignited at the tender age of six when my family acquired our first PC. Since then, I've been hooked on coding, with Python and C++ being my initial forays at the age of 15, followed by HTML, CSS, and JavaScript for my recent projects, including this portfolio you're looking at!
+
+                <br><br>
+
+                My ultimate aspiration is to join a company in an IT role, where I can merge my coding prowess, networking and cloud skills with my deeply held values. I firmly believe in fostering an environment of growth and self-improvement. Having grappled with mental health challenges in the past and undergone years of therapy, I've learned invaluable lessons beyond what self-learning and coding alone could impart. This journey has instilled in me the importance of supportive work environments.
+
+                <br><br>
+
+                I am excited about the prospect of bringing both my technical skills and personal warmth to a role where I can uplift and inspire those around me, making a meaningful difference through my work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#skills'"
+        />
+      </section>
+      </section>
+      <section id="skills">
+        <p class="section_text_p1">See My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="skill-sub-title">Technical</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Linux</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p>Proficient</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="skill-sub-title">Soft</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Leadership</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Problem Solving</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Working Under Pressure</h3>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Skill icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Communication</h3>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skill icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Adaptability</h3>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skill icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Teamwork</h3>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Coming soon.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Coming soon.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Coming soon.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/AlfieChapman1999/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="socials">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="social-info-upper-container">
+          <div class="social-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:achappy130199@gmail.com">achappy130199@gmail.com</a></p>
+          </div>
+          <div class="social-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon social-icon"
+            />
+            <p><a href="https://linkedin.com/in/alfie-chapman">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#socials">Socials</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Alfie Chapman. All Rights Reserved.</p>
+      </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>
